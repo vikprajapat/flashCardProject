@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/flashCardProject/static/css/main.b91f97a6.css",
+    "main.js": "/flashCardProject/static/js/main.caf5ec90.js",
+    "static/js/498.3756f395.chunk.js": "/flashCardProject/static/js/498.3756f395.chunk.js",
+    "static/js/703.accca108.chunk.js": "/flashCardProject/static/js/703.accca108.chunk.js",
+    "static/js/541.1c94213c.chunk.js": "/flashCardProject/static/js/541.1c94213c.chunk.js",
+    "static/js/787.6b89f573.chunk.js": "/flashCardProject/static/js/787.6b89f573.chunk.js",
+    "index.html": "/flashCardProject/index.html",
+    "main.b91f97a6.css.map": "/flashCardProject/static/css/main.b91f97a6.css.map",
+    "main.caf5ec90.js.map": "/flashCardProject/static/js/main.caf5ec90.js.map",
+    "498.3756f395.chunk.js.map": "/flashCardProject/static/js/498.3756f395.chunk.js.map",
+    "703.accca108.chunk.js.map": "/flashCardProject/static/js/703.accca108.chunk.js.map",
+    "541.1c94213c.chunk.js.map": "/flashCardProject/static/js/541.1c94213c.chunk.js.map",
+    "787.6b89f573.chunk.js.map": "/flashCardProject/static/js/787.6b89f573.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b91f97a6.css",
+    "static/js/main.caf5ec90.js"
+  ]
+}
