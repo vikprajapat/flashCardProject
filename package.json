@@ -1,5 +1,6 @@
 {
   "name": "flashcard_project",
+  "homepage": "https://vikprajapat.github.io/flashCardProject",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "daisyui": "^2.49.0",
     "formik": "^2.2.9",
+    "gh-pages": "^5.0.0",
     "jspdf": "^2.5.1",
     "nanoid": "^4.0.0",
     "react": "^18.2.0",
@@ -25,6 +27,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
