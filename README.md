@@ -2,11 +2,6 @@
 
 Author : Vikas Prajapat
 
-click on the link to open Flashcard generator ( project)
-
-- https://
-
-
 How to start this app?
    Git clone or download the Zip format, first run "npm install" to install all the
    dependencies and then run "npm start" to start the server.

@@ -16,7 +16,7 @@ import {
     AiOutlineDelete
 } from "react-icons/ai";
 
-import { setFlashCard} from "../flashCardSlicer/flashcardSlice"
+import { setFlashCard } from "../flashCardSlicer/flashcardSlice"
 import TextError from "../validations/customErrorForm/TextError";
 import { useDispatch } from 'react-redux';
 
@@ -136,17 +136,17 @@ const CreateFlashCard = () => {
                                     <div>
                                         {/*if cards and crads .length is greater than zero than mapping the cards and set index as a key for all cards other wise set null */}
                                         {cards && cards.length > 0 ? cards.map((cards, index) => (
-                                            <div className='flex rounded-t-lg items-center space-x-10 bg-white px-5 lg:px-10 py-4'
+                                            <div className='md:flex flex-col rounded-t-lg items-center space-x-10 bg-white px-5 lg:px-10 py-4'
                                                 key={index}>
 
-                                                {/** this will show the number of cards using index key value */}
-                                                <div className='w-8 h-8 px-5 py-5 flex items-center justify-center bg-blue-600 text-white text-md font-semibold rounded-full opacity-95'
-                                                >
-                                                    {index + 1}
-                                                </div>
-
-
-                                                <div className="flex flex-col space-y-3 md:space-x-10 md:flex-row">
+                                                <div className="flex flex-col relative space-y-3 md:space-x-10 sm:flex-row">
+                                                    
+                                                    {/** this will show the number of cards using index key value */}
+                                                    <div className='sm:w-10 lg:ml-8'>
+                                                        <p className='mt-12 p-2 w-8 h-8  flex items-center justify-center bg-blue-600 text-white text-md rounded-full opacity-95'>
+                                                            {index + 1}
+                                                        </p>
+                                                    </div>
                                                     <div className="relative flex flex-col justify-center space-y-3">
                                                         <label htmlFor="enterTerm" className="">
                                                             Enter Term
